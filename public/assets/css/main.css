@@ -1,0 +1,74 @@
+#sms_serv_container {
+    font-family: 'Lato', sans-serif;
+    width: 1100px;
+    margin: 30px auto;
+    /* position: relative; */
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: none;
+    display: block;
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, .15);
+    border-radius: 6px;
+}
+
+#sms_serv_container .container {
+    height: 100%;
+    padding: 30px;
+}
+
+#sms_serv_container .clock_container,
+#sms_serv_container .serv_header_text {
+    padding: 0em 1em;
+    font-size: 10px;
+}
+
+#sms_serv_container .serv_header_text h1 {
+    text-align: center;
+    color: #797693;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#sms_serv_container .btn_container,
+#sms_serv_container .form_group {
+    width: 500px;
+    margin: 40px auto;
+}
+
+#sms_serv_container #user_number,
+#sms_serv_container #user_name {
+    border: 2px solid #797693;
+    border-radius: 0%;
+    position: relative;
+    height: 36px;
+    font-size: 30px;
+    padding: 14px;
+    width: 100%;
+    color: #797693;
+    z-index: 10;
+    background: transparent;
+    font-weight: bolder;
+    margin: 8px 0px;
+    box-shadow: 0 10px 0 -5px rgba(0, 0, 0, 0.1);
+}
+
+#sms_serv_container .btn_submit {
+    border: 2px solid #797693;
+    border-radius: 0%;
+    position: relative;
+    color: #797693;
+    z-index: 10;
+    background: transparent;
+    font-weight: bolder;
+    height: 65px;
+    font-size: 30px;
+    padding: 14px;
+    cursor: pointer;
+    box-shadow: 0 10px 0 -5px rgba(0, 0, 0, 0.1);
+}
+
+#serv_time {
+    float: right;
+    margin: -15px;
+}

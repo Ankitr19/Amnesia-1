@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SMS-Service</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+</head>
+
+<body>
+    <div id="sms_serv_container">
+        <div class="container">
+            <div class="serv_header_text">
+                <h1>Service for Amnesia</h1>
+            </div>
+            <form>
+                <div class="form_group input_phone">
+                    <input name="input_user_phone" id="user_number" type="text">
+                    <label class="input_phone_label" for="user_number">
+                        <span class="input_phone_content">Phone Number(With ISD Code)</span>
+                    </label>
+                </div>
+                <div class="form_group input_name">
+                    <input name="input_user_name" id="user_name" type="text">
+                    <label class="input_name_label" for="user_name">
+                        <span class="input_name_content">User Name</span>
+                    </label>
+                </div>
+                <div class="btn_container">
+                    <button class="btn_submit" onclick="onsubmit">Submit</button>
+                </div>
+            </form>
+            <div class="clock_container">
+                <h1 id="serv_time"></h1>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/assets/js/postHandler.js"></script>
+    <script type="text/javascript" src="/assets/js/clock.js"></script>
+    <script type="text/javascript" src="/assets/js/worker.js"></script>
+</body>
+
+</html>

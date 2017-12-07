@@ -1,0 +1,28 @@
+{
+  "name": "sms-service",
+  "version": "1.0.0",
+  "description": "Express + Twilio Prioject",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=test nodemon server.js"
+  },
+  "author": "Tanmoy Bhowmik",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "jsonfile": "^4.0.0",
+    "moment": "^2.19.3",
+    "moment-timezone": "^0.5.14",
+    "mongoose": "^4.13.6",
+    "node-cron": "^1.2.1",
+    "time": "^0.12.0",
+    "timezone": "^1.0.13",
+    "twilio": "^3.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.4"
+  }
+}

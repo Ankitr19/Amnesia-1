@@ -1,0 +1,12 @@
+#################
+## Files
+#################
+.env.example
+/.env.example
+
+#################
+## Directories
+#################
+
+data/
+node_modules/
