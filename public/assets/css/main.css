@@ -17,6 +17,7 @@
     padding: 30px;
 }
 
+#sms_serv_container .msg_container,
 #sms_serv_container .clock_container,
 #sms_serv_container .serv_header_text {
     padding: 0em 1em;
@@ -71,4 +72,9 @@
 #serv_time {
     float: right;
     margin: -15px;
+}
+
+#serv_msg{
+    float: left;
+    margin: -15px 0px 0px 260px;
 }

@@ -26,9 +26,12 @@ function userIsSleep(user) {
     var user_current_hour = user_current_time.hours();
     console.log(user_current_hour);
 
-    if (user_current_hour >= SLEEP_TIME_24HRS && user_current_hour <= WAKE_TIME_24HRS)
+    if (user_current_hour >= SLEEP_TIME_24HRS && user_current_hour <= 24)
         return true;
-    return false;
+    else if (user_current_hour >= 0 && user_current_hour <= WAKE_TIME_24HRS)
+        return true;
+    else
+        return false;
 }
 
 function startNotify(user) {
@@ -114,10 +117,10 @@ function watchJobs(user) {
         console.log(user.phone);
 
 
-        // if (!userIsSleep(user)) {
-        //     console.log("User Not Sleep");
-        //     sendMessages(user);
-        // }    
+        if (!userIsSleep(user)) {
+            console.log("User Not Sleep");
+            sendMessages(user);
+        }    
 
         console.log(moment().format());
         console.log("--------------");

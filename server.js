@@ -22,12 +22,6 @@ var routes = require("./api/routes/routes.js")(app);
 
 var server = app.listen(3000, function () {
     console.log("Listening on port %s...", server.address().port);
-    console.log(new time.Date().getTimezone());
-    console.log(moment().format());
-    console.log(moment(new time.Date).format());
-    console.log(moment.tz(moment().format(),       "America/Toronto").format())
-    console.log("Hello");
-    console.log(moment().milliseconds())
 }); 
 
 subscribe.jobs();
