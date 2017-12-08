@@ -78,7 +78,6 @@ var onsubmit = function (e) {
 
     xhr.open("GET", "http://localhost:3000/allUser/");
     xhr.setRequestHeader("cache-control", "no-cache");
-    // xhr.setRequestHeader("postman-token", "35d83d68-3fd6-65a6-48c3-2e8c55e7b786");
 
     xhr.send(get_data);
 };
